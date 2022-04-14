@@ -1,22 +1,41 @@
 package QLX;
 
+import java.util.Arrays;
+
 public class QuanLyXeMay implements QuanLy<XeMay> {
-    public XeMay[] DanhSach = new XeMay[20];
+    public XeMay[] DanhSach = new XeMay[4];
+    public XeMay[] DanhSachXoa ;
+
     private int size = 0;
 
     @Override
-    public void them(XeMay XeMay) {
-        DanhSach[size]= XeMay;
+    public void them(XeMay xeMay) {
+        DanhSach[size]= xeMay;
         size++;
     }
 
+
     @Override
-    public void sua(String Ten) {XeMay XeMay = new XeMay();
-        DanhSach[timkiem(Ten)]=  XeMay;
+    public void sua(String Ten, XeMay xeMay) {
+        DanhSach[timkiem(Ten)] =  xeMay;
     }
 
     @Override
-    public void xoa(String Ten) {}
+    public void xoa(String Ten) {
+        DanhSachXoa = new XeMay[size-1];
+        int viTri = timkiem(Ten);
+        if (viTri != -1 ){
+            for (int i = 0; i < DanhSachXoa.length; i++) {
+                DanhSachXoa[i]= DanhSach[i];
+            }
+            for (int i = viTri ; i < size - 1; i++){
+                DanhSachXoa[i] = DanhSach[i + 1];
+            }
+        } else {
+            System.out.println("Khong tim thay!");
+        }
+
+    }
 
     @Override
     public int timkiem(String Ten) {
@@ -30,7 +49,7 @@ public class QuanLyXeMay implements QuanLy<XeMay> {
 
     @Override
     public void SapXep() {
-
+        Arrays.sort(DanhSach);
     }
 
     @Override
@@ -39,6 +58,12 @@ public class QuanLyXeMay implements QuanLy<XeMay> {
             System.out.println(DanhSach[i]);
         }
     }
+    public void print2() {
+        for (int i = 0 ; i<DanhSachXoa.length ; i++){
+            System.out.println(DanhSachXoa[i]);
+        }
+    }
+
 
     public static void main(String[] args) {
         QuanLyXeMay ql = new QuanLyXeMay();
@@ -50,7 +75,17 @@ public class QuanLyXeMay implements QuanLy<XeMay> {
         ql.them(xm2);
         ql.them(xm3);
         ql.them(xm4);
+        XeMay xm5 = new XeMay("HonDa","hong","lucaku", 110,150);
         ql.print();
         System.out.println("vitrix" + ql.timkiem("nokia"));
+        ql.sua("lam", xm5);
+        ql.print();
+        System.out.println("---------");
+        ql.SapXep();
+        ql.print();
+        System.out.println("----------");
+        ql.xoa("wwua");
+        ql.print2();
+
     }
 }

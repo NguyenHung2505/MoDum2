@@ -1,9 +1,11 @@
 package QLX;
 
-public class XeMay extends Phuongtien{
+public class XeMay extends Phuongtien implements  Comparable<XeMay>{
     private int DungTich;
 
-    public XeMay(){}
+    public XeMay(){
+
+    }
 
     public XeMay(String hang, String mau, String ten, int gia, int dungTich) {
         super(hang, mau, ten, gia);
@@ -22,5 +24,10 @@ public class XeMay extends Phuongtien{
                 "DungTich=" + DungTich +
                 "Gia :" + getGia()+
                 '}';
+    }
+
+    @Override
+    public int compareTo(XeMay h) {
+        return this.getGia() - h.getGia();
     }
 }
