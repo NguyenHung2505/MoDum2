@@ -26,6 +26,8 @@ public class XeMay extends Phuongtien implements  Comparable<XeMay>{
                 '}';
     }
 
+
+//     xếp theo thứ tự
     @Override
     public int compareTo(XeMay h) {
         return this.getGia() - h.getGia();

@@ -1,4 +1,4 @@
-package AutomatedTestingAMP;
+package pointvamoveablepoit;
 
 public class maint {
 

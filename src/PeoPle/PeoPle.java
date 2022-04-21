@@ -1,2 +1,60 @@
-package PeoPle;public class PeoPle {
+package PeoPle;
+
+public class PeoPle {
+    private String name;
+    private String age;
+    public String job;
+    private String id;
+
+    public PeoPle() {
+    }
+
+    public PeoPle(String name, String age, String job, String id) {
+        this.name = name;
+        this.age= age ;
+        this.job= job;
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public String getJob() {
+        return job;
+    }
+
+    public void setJob(String job) {
+        this.job = job;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "PeoPle{" +
+                "name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                ", job='" + job + '\'' +
+                ", id='" + id + '\'' +
+                '}';
+    }
 }

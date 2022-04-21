@@ -75,15 +75,15 @@ public class QuanLyXeMay implements QuanLy<XeMay> {
         ql.them(xm2);
         ql.them(xm3);
         ql.them(xm4);
-        XeMay xm5 = new XeMay("HonDa","hong","lucaku", 110,150);
         ql.print();
+        XeMay xm5 = new XeMay("HonDa","hong","lucaku", 110,150);
         System.out.println("vitrix" + ql.timkiem("nokia"));
         ql.sua("lam", xm5);
         ql.print();
-        System.out.println("---------");
+        System.out.println("----Sau khi sap xep-----" );
         ql.SapXep();
         ql.print();
-        System.out.println("----------");
+        System.out.println("-----sau khi xoa-----");
         ql.xoa("wwua");
         ql.print2();
 
