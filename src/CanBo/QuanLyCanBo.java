@@ -17,9 +17,9 @@ public class QuanLyCanBo implements QuanLy<CanBo>{
     }
 
     @Override
-    public int tim(String ten) {
+    public int tim(String hoVaTen) {
         for (int i = 0 ; i < canBoList.size() ; i ++){
-            if (this.canBoList.get(i).getHoVaTen()==ten){
+            if (this.canBoList.get(i).getHoVaTen().equals(hoVaTen)){
                 return i;
             }
         }
@@ -35,9 +35,9 @@ public class QuanLyCanBo implements QuanLy<CanBo>{
     }
 
     @Override
-    public void thoat(CanBo canBo) {
+    public int thoat() {
         System.exit(0);
 
-
+        return 0;
     }
 }
