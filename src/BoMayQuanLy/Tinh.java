@@ -1,51 +1,59 @@
 package BoMayQuanLy;
 
 public class Tinh {
-   private String tenT;
-   private double gdp;
-   private int maT;
-   private static int dem = 0;
+    private int id;
+    private String name;
+    private int danSo;
+    private int gdp;
 
     public Tinh() {}
 
-    public Tinh(String tenT, double gdp, int maT) {
-        this.maT = dem;
-        dem++;
-        this.tenT = tenT;
+    public Tinh(int id, String name, int danSo, int gdp) {
+        this.id = id;
+        this.name = name;
+        this.danSo = danSo;
         this.gdp = gdp;
-        this.maT = maT;
     }
 
-    public String getTenT() {
-        return tenT;
+    public int getId() {
+        return id;
     }
 
-    public void setTenT(String tenT) {
-        this.tenT = tenT;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public double getGdp() {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getDanSo() {
+        return danSo;
+    }
+
+    public void setDanSo(int danSo) {
+        this.danSo = danSo;
+    }
+
+    public int getGdp() {
         return gdp;
     }
 
-    public void setGdp(double gdp) {
+    public void setGdp(int gdp) {
         this.gdp = gdp;
-    }
-
-    public int getMaT() {
-        return maT;
-    }
-
-    public void setMaT(int maT) {
-        this.maT = maT;
     }
 
     @Override
     public String toString() {
         return "Tinh{" +
-                "tenT='" + tenT + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", danSo=" + danSo +
                 ", gdp=" + gdp +
-                ", maT=" + maT +
                 '}';
     }
 }

@@ -2,32 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8097f19a-f45e-44e9-a425-2edff89ad581" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BoMayQuanLy/Nguoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BoMayQuanLy/QuanLy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BoMayQuanLy/QuanLyNguoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BoMayQuanLy/QuanLyTinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BoMayQuanLy/Tinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CacThiSinhThiDH/Chay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CacThiSinhThiDH/KhoiA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CacThiSinhThiDH/KhoiB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CacThiSinhThiDH/KhoiC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CacThiSinhThiDH/QuanLyThiSinhDuThi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CacThiSinhThiDH/QuanLyTuyenSinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CacThiSinhThiDH/phuongThucQuanLy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuanLySach/Bao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuanLySach/MenuPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuanLySach/QLTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuanLySach/QuanLyCacTaiLieu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuanLySach/QuanLySach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuanLySach/Sach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuanLySach/TapChi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoMayQuanLy/QuanLyCB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CanBo/HaShiRu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CanBo/HaShiRu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CanBo/QuanLy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CanBo/QuanLy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CanBo/QuanLyCanBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CanBo/QuanLyCanBo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CanBo/HaShiRu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CanBo/HaShiRu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CanBo/QuanLy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CanBo/QuanLy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CanBo/QuanLyCanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CanBo/QuanLyCanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/BoMayQuanLy/Nguoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/BoMayQuanLy/Nguoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/BoMayQuanLy/QuanLy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/BoMayQuanLy/QuanLyNguoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/BoMayQuanLy/QuanLyNguoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/BoMayQuanLy/QuanLyTinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/BoMayQuanLy/QuanLyTinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/BoMayQuanLy/Tinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/BoMayQuanLy/Tinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CacThiSinhThiDH/Chay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CacThiSinhThiDH/Chay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CacThiSinhThiDH/KhoiA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CacThiSinhThiDH/KhoiA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CacThiSinhThiDH/QuanLyTuyenSinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CacThiSinhThiDH/QuanLyTuyenSinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CacThiSinhThiDH/phuongThucQuanLy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/CacThiSinhThiDH/phuongThucQuanLy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pointvamoveablepoit/QuanLySach/MenuPlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pointvamoveablepoit/QuanLySach/MenuPlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoMayQuanLy/Nguoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoMayQuanLy/Nguoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoMayQuanLy/QuanLy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoMayQuanLy/QuanLyNguoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoMayQuanLy/QuanLyNguoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoMayQuanLy/QuanLyTinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoMayQuanLy/QuanLyTinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoMayQuanLy/Tinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoMayQuanLy/Tinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CacThiSinhThiDH/Chay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CacThiSinhThiDH/Chay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +66,13 @@
       <recent name="danhSach" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuanLyTinh">
-    <configuration name="HaShiRu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CanBo.HaShiRu" />
+  <component name="RunManager" selected="Application.QuanLyNguoi">
+    <configuration name="Chay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CacThiSinhThiDH.Chay" />
       <module name="pointvamoveablepoit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CanBo.*" />
+          <option name="PATTERN" value="CacThiSinhThiDH.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuanLyNguoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoMayQuanLy.QuanLyNguoi" />
+      <module name="pointvamoveablepoit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BoMayQuanLy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuanLyTinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoMayQuanLy.QuanLyTinh" />
       <module name="pointvamoveablepoit" />
@@ -127,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuanLyXeMay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QLX.QuanLyXeMay" />
-      <module name="pointvamoveablepoit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QLX.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuanLyNguoi" />
+        <item itemvalue="Application.Chay" />
         <item itemvalue="Application.QuanLyTinh" />
         <item itemvalue="Application.MenuPlay" />
         <item itemvalue="Application.Hashiru" />
-        <item itemvalue="Application.HaShiRu" />
-        <item itemvalue="Application.QuanLyXeMay" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +180,9 @@
       <workItem from="1650527634947" duration="25000" />
       <workItem from="1650527670782" duration="4193000" />
       <workItem from="1650532827704" duration="9952000" />
-      <workItem from="1650590947302" duration="13022000" />
+      <workItem from="1650590947302" duration="35522000" />
+      <workItem from="1650793129263" duration="40000" />
+      <workItem from="1650809430142" duration="23000" />
     </task>
     <servers />
   </component>

@@ -18,9 +18,11 @@ public class Chay {
 
 
 
-        System.out.println(" nhập 0 để thoát chương trình");
-        sc.nextInt();
-        System.out.println(phuongThucQuanLy1.thoatChuongTrinh());
+
+
+//        System.out.println(" nhập 0 để thoát chương trình");
+//        sc.nextInt();
+//        System.out.println(phuongThucQuanLy1.thoatChuongTrinh());
 
     }
 
